@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="300" fill="#faf7f0"/>
+<rect x="0" y="230" width="400" height="70" fill="#211a14"/>
+<g>
+<ellipse cx="130" cy="120" rx="55" ry="16" fill="#211a14"/>
+<rect x="75" y="120" width="110" height="110" fill="#211a14"/>
+<ellipse cx="130" cy="230" rx="55" ry="16" fill="#17120d"/>
+<rect x="82" y="150" width="96" height="60" fill="url(#oilg)"/>
+</g>
+<g>
+<ellipse cx="270" cy="90" rx="55" ry="16" fill="#211a14"/>
+<rect x="215" y="90" width="110" height="140" fill="#211a14"/>
+<ellipse cx="270" cy="230" rx="55" ry="16" fill="#17120d"/>
+<rect x="222" y="160" width="96" height="65" fill="url(#oilg)"/>
+</g>
+<defs><linearGradient id="oilg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c8862c"/><stop offset="1" stop-color="#e0a34a"/></linearGradient></defs>
+</svg>

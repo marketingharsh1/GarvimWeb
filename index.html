@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var t=localStorage.getItem('garvim-theme')||'light';document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garvim Energy LLP — Turning Waste Tyres Into Tomorrow's Fuel</title>
+<meta name="description" content="Garvim Energy LLP operates a continuous tyre pyrolysis plant in Morbi, Gujarat — converting end-of-life tyres into pyrolysis oil, carbon char, and clean energy, non-stop.">
+<link rel="icon" type="image/png" href="images/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="page-veil"></div>
+
+<header class="site">
+  <div class="nav-inner">
+    <a href="index.html" class="brand" aria-label="Garvim Energy LLP — Home"><img class="brand-mark" src="images/logo-mark.png" alt=""><img class="brand-word" src="images/logo-wordmark.png" alt="Garvim Energy LLP"></a>
+    <nav class="primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline"><span>Contact</span></a>
+      <button class="theme-toggle" type="button" aria-label="Switch between light and dark theme" title="Switch theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M5.3 18.7 7 17M17 7l1.7-1.7"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a.7.7 0 0 0-.9-.9A9.8 9.8 0 1 0 21.4 15.2a.7.7 0 0 0-.9-.9Z"/></svg>
+      </button>
+      <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal in">
+        <h1>Turning Waste Tyres Into Tomorrow's Fuel</h1>
+        <p class="sub">Garvim Energy LLP runs a continuous tyre pyrolysis plant that converts end-of-life tyres into pyrolysis oil, carbon char, and clean energy — non-stop, 24 hours a day.</p>
+        <div class="hero-ctas">
+          <a href="contact.html" class="btn btn-primary"><span>Get in Touch</span></a>
+          <a href="process.html" class="btn btn-outline"><span>See How It Works</span></a>
+        </div>
+      </div>
+
+      <div class="reveal in" style="transition-delay:.15s">
+        <!-- Reactor / conveyor / oil+char animation -->
+        <svg class="reactor-scene" viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated diagram: shredded tyres feeding into a pyrolysis reactor, producing pyrolysis oil and carbon char">
+          <defs>
+            <linearGradient id="oilGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#c8862c"/>
+              <stop offset="100%" stop-color="#e0a34a"/>
+            </linearGradient>
+            <linearGradient id="tankGrad" x1="0" y1="1" x2="0" y2="0">
+              <stop offset="0%" stop-color="#c8862c"/>
+              <stop offset="100%" stop-color="#e0a34a"/>
+            </linearGradient>
+          </defs>
+
+          <!-- ground shadow -->
+          <ellipse cx="270" cy="288" rx="230" ry="10" fill="#211a14" opacity="0.06"/>
+
+          <!-- conveyor belt (flat, then inclined into the hopper) -->
+          <g>
+            <rect x="18" y="192" width="150" height="12" rx="6" fill="#a9967a"/>
+            <rect x="18" y="192" width="150" height="5" rx="2.5" fill="#c9bda6"/>
+            <line class="conveyor-track" x1="24" y1="198" x2="162" y2="198" stroke="#211a14" stroke-width="2" stroke-linecap="round"/>
+            <path d="M168,198 L235,140" stroke="#a9967a" stroke-width="12" stroke-linecap="round"/>
+            <path class="conveyor-track" d="M168,198 L235,140" stroke="#211a14" stroke-width="2" stroke-linecap="round" fill="none"/>
+            <!-- support legs -->
+            <rect x="45" y="204" width="6" height="26" fill="#8d7a5f"/>
+            <rect x="130" y="204" width="6" height="26" fill="#8d7a5f"/>
+          </g>
+
+          <!-- tyres riding the belt, drawn with tread + rim for a more realistic look -->
+          <g class="tyre tyre-1">
+            <ellipse cx="0" cy="3" rx="11" ry="4" fill="#000" opacity="0.15"/>
+            <circle r="11" fill="#26201a"/><circle r="11" fill="none" stroke="#100c08" stroke-width="2"/>
+            <circle r="5.5" fill="#efe6d4"/><circle r="2" fill="#26201a"/>
+          </g>
+          <g class="tyre tyre-2">
+            <ellipse cx="0" cy="3" rx="11" ry="4" fill="#000" opacity="0.15"/>
+            <circle r="11" fill="#26201a"/><circle r="11" fill="none" stroke="#100c08" stroke-width="2"/>
+            <circle r="5.5" fill="#efe6d4"/><circle r="2" fill="#26201a"/>
+          </g>
+          <g class="tyre tyre-3">
+            <ellipse cx="0" cy="3" rx="11" ry="4" fill="#000" opacity="0.15"/>
+            <circle r="11" fill="#26201a"/><circle r="11" fill="none" stroke="#100c08" stroke-width="2"/>
+            <circle r="5.5" fill="#efe6d4"/><circle r="2" fill="#26201a"/>
+          </g>
+
+          <!-- feed hopper -->
+          <path d="M215,118 L260,118 L248,142 L227,142 Z" fill="#3e5f3e"/>
+          <path d="M215,118 L260,118 L253,128 L222,128 Z" fill="#2f4a2f"/>
+          <text x="237" y="106" text-anchor="middle" fill="#211a14" font-size="11" font-family="Inter, sans-serif" font-weight="600">Feed hopper</text>
+
+          <!-- reactor body: horizontal cylinder with shaded ends for a 3D feel -->
+          <g>
+            <rect x="248" y="150" width="185" height="62" fill="#2a221a"/>
+            <rect x="248" y="150" width="185" height="62" fill="url(#reactorShade)"/>
+            <ellipse cx="248" cy="181" rx="10" ry="31" fill="#1a140f"/>
+            <ellipse cx="433" cy="181" rx="10" ry="31" fill="#17120d"/>
+            <rect class="reactor-glow" x="262" y="163" width="155" height="9" rx="4.5" fill="#e0a34a" opacity="0.75"/>
+            <text x="340" y="200" text-anchor="middle" fill="#f2e8d8" font-size="12" font-family="Inter, sans-serif" font-weight="600" letter-spacing="1">REACTOR</text>
+          </g>
+
+          <!-- oil outlet -> oil tank, positioned to the LEFT and well clear of the char bin -->
+          <path class="oil-flow" d="M290,212 L290,236 Q290,246 280,246 L205,246 Q195,246 195,256 L195,262" fill="none" stroke="url(#oilGrad)" stroke-width="5" stroke-linecap="round" stroke-dasharray="6 6"/>
+          <g>
+            <ellipse cx="195" cy="263" rx="26" ry="7" fill="#1a140f"/>
+            <rect x="169" y="263" width="52" height="70" fill="none" stroke="#211a14" stroke-width="2.5"/>
+            <rect class="oil-tank-fill" x="172" y="266" width="46" height="64" fill="url(#tankGrad)" style="transform-origin:172px 330px"/>
+            <ellipse cx="195" cy="333" rx="26" ry="7" fill="none" stroke="#211a14" stroke-width="2"/>
+          </g>
+          <text x="195" y="348" text-anchor="middle" fill="#211a14" font-size="11" font-family="Inter, sans-serif" font-weight="600">Oil Tank</text>
+
+          <!-- char outlet -> char bin, positioned to the RIGHT, clearly separate from the oil tank -->
+          <path d="M400,212 L400,232 Q400,240 408,240 L440,240 Q448,240 448,248 L448,254" fill="none" stroke="#211a14" stroke-width="4" stroke-linecap="round"/>
+          <g transform="translate(448,256)">
+            <circle class="char-particle" cx="-9" cy="0" r="2.8" fill="#211a14"/>
+            <circle class="char-particle" cx="-2" cy="0" r="2.3" fill="#2f4a2f"/>
+            <circle class="char-particle" cx="5" cy="0" r="3" fill="#211a14"/>
+            <circle class="char-particle" cx="12" cy="0" r="2.4" fill="#2f4a2f"/>
+            <circle class="char-particle" cx="19" cy="0" r="2.6" fill="#211a14"/>
+          </g>
+          <path d="M420,290 L476,290 L466,333 L430,333 Z" fill="#efe6d4" stroke="#211a14" stroke-width="2"/>
+          <path d="M424,300 L472,300 L466,320 L430,320 Z" fill="#211a14" opacity="0.85"/>
+          <text x="448" y="348" text-anchor="middle" fill="#211a14" font-size="11" font-family="Inter, sans-serif" font-weight="600">Char Bin</text>
+
+          <defs>
+            <linearGradient id="reactorShade" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#3a2f24" stop-opacity="0.9"/>
+              <stop offset="45%" stop-color="#241d16" stop-opacity="0"/>
+              <stop offset="100%" stop-color="#000" stop-opacity="0.35"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="trust-strip reveal">
+        <div class="trust-item"><span class="num">50–60 TPD</span><span class="label">Processing capacity</span></div>
+        <div class="trust-item"><span class="num">24-hour</span><span class="label">Continuous operation</span></div>
+        <div class="trust-item"><span class="num">Morbi</span><span class="label">Gujarat, India</span></div>
+        <div class="trust-item"><span class="num">Oil · Char · Gas</span><span class="label">Recovered outputs</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section>
+    <div class="wrap" style="max-width:900px">
+      <div class="eyebrow reveal">What we do</div>
+      <p class="reveal" style="font-size:1.15rem; max-width:none; color:rgba(var(--ink-rgb), .85)">Garvim Energy LLP runs a continuous tyre pyrolysis facility that processes end-of-life tyres round the clock. Using a sealed, oxygen-free thermal process, we break down rubber tyre chips into three usable resources — pyrolysis oil, carbon char, and combustible gas — instead of letting waste tyres pile up, catch fire, or pollute land and water. It's a practical answer to Gujarat's, and India's, growing tyre waste problem, and a step toward a circular economy.</p>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section-cream">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">The problem we're solving</div>
+        <h2>Waste tyres don't disappear on their own</h2>
+      </div>
+      <div class="grid-3 reveal-stagger">
+        <div class="card">
+          <h3>Mounting waste</h3>
+          <p>India generates hundreds of millions of scrap tyres every year, and most are bulky, non-biodegradable, and difficult to dispose of safely.</p>
+        </div>
+        <div class="card">
+          <h3>Environmental risk</h3>
+          <p>Abandoned tyre stockpiles are fire hazards and a source of land and water contamination when left untreated.</p>
+        </div>
+        <div class="card">
+          <h3>A resource, not garbage</h3>
+          <p>Every waste tyre contains recoverable oil, carbon, and gas — pyrolysis is how we get it back out.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS SNAPSHOT -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Our process</div>
+        <h2>From scrap tyre to usable resource, continuously</h2>
+      </div>
+      <div class="process-list reveal-stagger">
+        <div class="process-step"><div class="step-num"></div><div><h3>Feeding</h3><p>Shredded tyre chips are fed continuously into the sealed reactor through an airtight dual-hopper system.</p></div></div>
+        <div class="process-step"><div class="step-num"></div><div><h3>Thermal decomposition</h3><p>Heated in an oxygen-free chamber, breaking rubber down into hot vapor and solid carbon residue.</p></div></div>
+        <div class="process-step"><div class="step-num"></div><div><h3>Condensation</h3><p>Vapors are cooled into pyrolysis oil; leftover gas is recycled to help fuel the reactor itself.</p></div></div>
+        <div class="process-step"><div class="step-num"></div><div><h3>Recovery</h3><p>Carbon char is cooled, collected, and packaged; oil is stored ready for sale or use.</p></div></div>
+      </div>
+      <div class="reveal" style="margin-top:2rem"><a href="process.html" class="btn btn-outline"><span>Read the full process →</span></a></div>
+    </div>
+  </section>
+
+  <!-- WHY CONTINUOUS -->
+  <section class="section-charcoal">
+    <div class="wrap grid-2" style="align-items:center">
+      <div class="reveal">
+        <div class="eyebrow" style="color:var(--amber-light)">Why continuous pyrolysis</div>
+        <h2>Built to run non-stop, not in batches</h2>
+        <p style="color:rgba(250,247,240,.75)">Our plant is built around the PU500 continuous reactor, engineered for steady, predictable output and safety at every stage.</p>
+      </div>
+      <ul class="compare-list reveal-stagger">
+        <li class="compare-row"><span class="check">✓</span><span>Runs 24/7 with automated dual-hopper feeding — no shutdowns for reloading</span></li>
+        <li class="compare-row"><span class="check">✓</span><span>Reactor operates under negative pressure with nitrogen backup for built-in fire/explosion safety</span></li>
+        <li class="compare-row"><span class="check">✓</span><span>SCADA-controlled for consistent temperature and consistent output quality</span></li>
+        <li class="compare-row" style="border-bottom:none"><span class="check">✓</span><span>Syngas is reused to heat the reactor, cutting fuel costs and meeting emission standards</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- OUTPUTS -->
+  <section class="section-cream">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Our outputs</div>
+        <h2>Three resources, recovered from every tyre</h2>
+      </div>
+      <div class="grid-3 reveal-stagger">
+        <div class="card"><h3>Pyrolysis Oil</h3><p>Used as industrial fuel in burners, furnaces, and generators.</p></div>
+        <div class="card"><h3>Carbon Char</h3><p>Used in industrial furnaces, or processed further into recovered carbon black (rCB).</p></div>
+        <div class="card"><h3>Combustible Gas</h3><p>Recycled back into the system to heat the reactor.</p></div>
+      </div>
+      <div class="reveal" style="margin-top:2rem"><a href="products.html" class="btn btn-outline"><span>Explore our products →</span></a></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-banner reveal">
+        <div>
+          <h3>Have waste tyres to dispose of, or want to know more about our plant?</h3>
+          <p>Call us at +91 99130 52200 or send us a message.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary"><span>Get in Touch</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand brand-on-dark" aria-label="Garvim Energy LLP — Home"><img class="brand-mark" src="images/logo-mark.png" alt=""><img class="brand-word" src="images/logo-wordmark.png" alt="Garvim Energy LLP"></a>
+      <p>Turning tires into value. Fuel for tomorrow. A continuous tyre pyrolysis plant in Morbi, Gujarat.</p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+919913052200">+91 99130 52200</a></li>
+        <li><a href="mailto:garvimenergyllp@gmail.com">garvimenergyllp@gmail.com</a></li>
+        <li><a href="contact.html">Contact page →</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Location</h4>
+      <ul>
+        <li><span>Vadharva, Malia–Ahmedabad Highway,<br>Opp. Simpolo Ceramic, Morbi, Gujarat</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Garvim Energy LLP. All rights reserved.</span>
+    <span>www.garvimenergy.com</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/919913052200" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.3A8.9 8.9 0 0 0 12 4a8.9 8.9 0 0 0-7.7 13.4L3 21l3.7-1.3A8.9 8.9 0 0 0 12 20.9a8.9 8.9 0 0 0 5.6-14.6ZM12 19.3a7.4 7.4 0 0 1-3.8-1l-.3-.2-2.7 1 .9-2.6-.2-.3A7.4 7.4 0 1 1 19.4 12 7.4 7.4 0 0 1 12 19.3Zm4-5.5c-.2-.1-1.3-.7-1.5-.7s-.4-.1-.5.1-.6.7-.7.9-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.5c-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4c-.1-.1-.5-1.2-.7-1.7s-.4-.4-.5-.4h-.4a.9.9 0 0 0-.6.3 2.7 2.7 0 0 0-.8 2 4.7 4.7 0 0 0 1 2.5 10.7 10.7 0 0 0 4.1 3.6c1.4.6 1.4.4 1.7.4a1.5 1.5 0 0 0 1-.7 1.2 1.2 0 0 0 .1-.7c0-.1-.2-.2-.4-.3Z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
